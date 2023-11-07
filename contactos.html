@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary"
         class="navbar bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">  
+          <a class="navbar-brand" href="index.html">
             <img src="./img/Logo.jpeg" alt="logo" width="120" height="90"> Luxury Cars
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,67 +37,52 @@
                 <a class="nav-link" href="sobrenos.html">Sobre Nosotros</a>
               </li>
               </ul>
-            </ul>
-         
+              
           </div>
         </div>
       </nav>
-    
     </header>
+    <img class="imgcontact" src="./img/mercedesgts2.jpeg" alt="">
     <main>
-  
-      <section>
-        <h2 class="text-center m-5">Noticias</h2>
-        <article class="noticia">
-          <div class="text-center noticiatext w-100 p-3">
-            <h3>Nuevo Audi E-tron</h3>
-            <p>
-              Siente la adrenalina de una manera electrizante. Con su motor electrico de 360cv y su autonomia de 420km llega a donde te lo propongas.
-            </p> 
-            <p>
-              Esta nueva camioneta de Audi, es la perfecta para el dia a dia, ya que con su altura pasas por cualquier lugar. Ademas, lo mas importante es su motor electrico que con esta increible aceleracion, hace olvidarnos de que andamos en una camioneta, ¡Parece un auto!
-            </p> 
-          </div>
-          <img src="./img/audi-e-tron-sportback.jpg" alt="" class="p-3 imgnot">
-        </article>
-        <article class="noticia">
-          <img src="./img/bmwi5.jpg" alt="" class="p-3 imgnot">
-         <div class="text-center noticiatext w-100 p-3">
-           <h3>Nuevo BMW I5</h3>
-           <p>
-           Las mismas capacidades de un M, pero de una forma ecologica
-           </p>
-           <p>
-            En esta nueva generacion de el serie 5, tenemos la opcion de elegir una version electificada la cual anticipo, nos encanto. Con su motor electrico tiene una reaccion instantanea al acelerador, es el auto perfecto para viajar, con su confort y lujo no deja nada que desear, todo lo necesario para un auto de esta gama.
-           </p>
-         </div>
-        </article>
+      <form class="row g-3 p-5">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="InputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="InputName">
+        </div>
+        <div class="col-12">
+          <label for="inputreason" class="form-label">Razon por la que nos contactas</label>
+          <input type="text" class="form-control" id="inputreason" placeholder="Me gusto este vehiculo">
+        </div>
+       
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-6">
+          <label for="inputprovince" class="form-label">Provincia</label>
+          <select id="inputprovince" class="form-select">
+            <option selected>Elegir</option>
+            <option>Mendoza</option>
+            <option>Buenos Aires</option>
+            <option>Cordoba</option>
+            <option>Tucuman</option>
+            <option>Rio Negro</option>
+            <option>Entre Rios</option>
+            <option>Corrientes</option>
+            <option>Santa Fe</option>
+          </select>
+        </div>
         
-        <article class="noticia">
-          <div class="text-center noticiatext w-100 p-3">
-            <h3>Nueva Ram 1500 2025</h3>
-            <p>
-              Nuevas motorizaciones, mismas capacidades
-            </p>
-            <p>
-              En esta nueva Ram veremos como principal cambio los motores, Ram deja de lado el HEMI V8 y apuesta por motorizaciones hibridas con sus V6, el hurricane y el pentastar, logrando asi un gran aumento en las prestaciones de la pick-up. Siempre manteniendo el lujo que caracteriza a la marca.
-            </div>
-            <img src="./img/2025-ram-1500.jpg" alt="" class="p-3 imgnot">
-          </article>
-          <article class="noticia">
-            <img src="./img/Lamborghini_Revuelto.jpg" alt="" class="p-3 imgnot">
-           <div class="text-center noticiatext w-100 p-3">
-             <h3>Nuevo Lamborghini</h3>
-             <p>
-             Lo ultimo de Lamborghini esta aqui, su nuevo hibrido, el Revuelto
-             </p>
-             <p>
-              Este es el digno sucesor del legendario Aventador. El Revuelto viene a romper el segmento de los super autos con su nuevo motor V12 hibrido de 1000CV! lo cual hace que siga estando la misma emocion de forma mas ecologica. Con un 0 a 100 de 2.5 seg y una velocidad maxima de 350 km/h promete mucho.
-             </p>
-           </div>
-          </article>
-        </section>
-   
+      
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
     </main>
     <footer>
       <nav class="navbar navbar-expand-lg bg-body-tertiary"git 
@@ -110,7 +95,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
@@ -126,14 +111,12 @@
             <li class="nav-item">
               <a class="nav-link" href="sobrenos.html">Sobre Nosotros</a>
             </li>
-            </ul>
           </ul>
         
         </div>
       </div>
     </nav>
     </footer>
-    
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
