@@ -50,13 +50,8 @@
   @include medium{
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   }
-  
 }
 
-.noticiaIndex {
-  display: flex;
-  
-  }
   
 
 .noticia {
@@ -64,18 +59,49 @@
   .imgnot {
     height: 630px;
     width: 1200px;
+  
+  @include xxl{
+   margin: 0 auto;
+    height: 630px;
+    width: 1000px;
   }
-}
+  @include xl{
+    height: 550px;
+    width: 850px;
+  }
+  @include large{
+    height: 400px;
+    width: 630px;
+  }
+  @include medium{
+    height: 310px;
+    width: 490px;
+  }
+  @include small{
+    height: 300px;
+    width: 410px;
+  }
+  }
+   
+   @include xxl{
+    display: flex;
+    flex-direction: column; 
+  }
+  }
+   
+
 .imgContactContainer {
   width: 100%;
   display: flex;
   justify-content: center;
   height: 200px;
 }
+
 .imgcontact {
   width: 100%;
   object-fit: cover;
 }
+
 .mainContact {
   background-color: grey;
   text-align: center;

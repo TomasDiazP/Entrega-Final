@@ -1,5 +1,5 @@
 @mixin xxl{
-    @media(width < 1450){
+    @media(width < 1250px){
        @content;
     }
  }
